@@ -50,14 +50,6 @@ Editorial emphasized section on p-values
 
 
 
-<!----
-
-\centering
-
-![types articles published](../figures/types_of_articles_2018.jpeg){width=100%}
-
----->
-
 ## Statistical Review at NEJM
 
 Six paid statistical consultants (reviewers)
@@ -428,6 +420,11 @@ Require model diagnostics for observational studies
 
 Accompanying editorial gives references to methods for controlling error rates with multiple tests
 
+---- 
+
+Talk is available at under mskcc_2019 
+
+https://github.com/dave-harrington/talks
 
 ## Some references
 
