@@ -64,7 +64,7 @@ Statistical reviewers
 
 ## Background
 
-Revised author guidelines on statistical posted on NEJM website July 2019
+Revised author guidelines on statistical reporting posted on NEJM website July 1, 2019
 
 https://www.nejm.org/author-center/new-manuscripts
 
@@ -80,13 +80,13 @@ Editorial emphasized section on p-values
 
 Emphasize aspects of good practice in analysis and reporting
 
-- All points we discussed have been in the statistical literature for decades
+- All points discussed have been in the statistical literature for decades
 
 Add consistency to
 
 - Statistical reviewing at NEJM
 
-- Standards of analysis in initial reporting
+- Standards of analysis in reporting of results
 
 Move toward standards of reporting in observational studies
 
@@ -104,7 +104,7 @@ Show the data
 
 Acknowledge that we cannot influence design
 
-Every good paper should have a path to publication
+Every good paper should have a path to publication, even with
 
 - No planned adjustment for multiplicity
 
@@ -133,9 +133,7 @@ Word limits in NEJM make it difficult to discuss nuance.
 
 - 2700 words for article
 
-Normal review time and weekly publication schedule make significant changes difficult.
-
-
+Normal review time and weekly publication schedule make transition to major changes difficult.
 
 ## Content of the guidelines
 
@@ -147,7 +145,7 @@ For all studies
 
 For RCTs:
 
-- Provide protocol and SAP.    
+- Provide protocol and statistical analysis plan (SAP).    
 
 - Analysis should match design
 
@@ -189,8 +187,6 @@ Is a confidence interval always a test in disguise?
 
 Interpretation of confidence intervals by readers
 
-Have we made it easier to make unsupported claims?
-
 Typical insert I recommend to authors for methods:
 
 \begin{quote}
@@ -210,7 +206,7 @@ For each of 10,000 replicates in a simulation
 - Simulate collection of correlated p-values    
 - Choose a method of FWER or FDR control that is most favorable to the analyst    
 
-    - Minimize the minimum $p$-values or     
+    - Minimize the minimum $p$-value or     
     - Maximize the number of adjusted $p$-values < 0.05
     
 - Average FWER or FDR across replicates
@@ -229,7 +225,7 @@ Choice of methods from
     
 ## Perils of post hoc adjustment
 
-Overlooked distinction between confirmation and discovery
+Does not distinguish between confirmation and discovery
 
 Are all the primary secondary and subgroup analyses part of the family of tests examining a treatment effect?
 
@@ -247,7 +243,7 @@ DOI: 10.1056/NEJMoa1801291
 
 ## $p$ values for interactions
 
-Did we do more harm than good in eliminating p-values in forest  plots of subgroups?
+Did we do more harm than good in eliminating $p$-values in forest  plots of subgroups?
 
 Deputy editors, authors and some statisticians reluctant to eliminate these
 
