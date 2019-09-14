@@ -1,0 +1,75 @@
+Notes for resident course.
+
+Be sure to add questions
+
+Transcatheter study
+
+Important  points for discussion:
+
+-- Introductions
+
+-- Begin with someone presenting the study
+
+-- Overall study vs subgroups
+
+-- Difference between abstract and discussion:  will the subsequent studies be ethical?  Equipoise
+
+-- ITT vs per protocol, and why
+
+-- Standard p-values are not as useful in NI studies
+
+-- Differences between risk ratio and hazard ratio.  Not an important distinction in this trial.
+
+-- Add the following to the RMD file
+
+
+-- Important questions when reading paper
+
+   -- What was primary endpoint?  Well chosen, clinically relevant?
+   
+   -- Was the design adequately powered for the clinically relevant endpoint
+   
+   -- Did the randomization produce balance?
+   
+   -- Did the analysis reflect the design?
+   
+   -- Was the rate in the control group close to the design spec.  A bit lower in this study, 19% vs 30%.  Note that these are pure percentages, not KM estimates, but ok with complete follow-up to two years
+   
+   -- What does the primary analysis show?
+   
+      -- Should it be ITT, or PP
+	  
+	  -- Focus on confidence intervals, not only on p-values
+	  
+   -- Are the trial results consistent? Across subgroups, across secondary endpoints?
+   
+      -- Low power in subgroups.
+	  
+  -- Do the conclusions in the  discussion match those in the abstract
+	  
+
+
+
+Abstract: 
+
+2032 patients randomized
+
+Primary endpoint: death from any cause or disabling stroke at 2 years.
+
+Randomization between TAVR and conventional surgery
+
+-- Two strata: transfemoral and transthoracic access
+
+-- Overall design: risk ratio < 1.20, TAVR/Surgery.  Based on estimates at 2 years of KM, using standard errors
+
+
+Abstract discusses the transfemoral access cohort
+
+-- Should we have allowed this?  It was pre-specified in SAP.
+
+-- What does it do to the NI conclusion?
+
+-- First time in high risk patients
+
+-- Get figure S2 in supplemental figures.  It has the design
+

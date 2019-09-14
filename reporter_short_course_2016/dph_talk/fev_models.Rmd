@@ -1,0 +1,72 @@
+---
+title: "Models for fev"
+author: "NEJM Course for Medical Reporters"
+date: "September 12 & 19, 2016"
+output: 
+  beamer_presentation:
+    fig_height: 3
+    fig_width: 3.25
+    includes:
+      in_header: nejm_header.tex
+    keep_tex: yes
+    toc: yes
+slide_level: 3
+---
+
+
+### Unadjusted association and models
+
+```{r, echo=FALSE, fig.width=4, fig.height=4}
+load("datafiles/fev.Rdata")
+smoking.status = factor(fev$Smoke, labels=c("No", "Yes"))
+gender = factor(fev$Sex, labels=c("Female", "Male"))
+summary(lm(fev$fev ~ smoking.status))
+summary(lm(fev$fev ~ smoking.status + fev$Age))
+summary(lm(fev$fev ~ smoking.status + fev$Hgt + fev$Age))
+summary(lm(fev$fev ~ smoking.status + fev$Hgt + fev$Age + gender))
+summary(lm(fev$fev ~ smoking.status  + fev$Age + fev$Hgt + fev$Age*fev$Hgt))
+```   
+
+
+### Stratification
+
+```{r, echo=FALSE, fig.width=4, fig.height=3}
+load("datafiles/fev.Rdata")
+smoking.status = factor(fev$Smoke, labels=c("No", "Yes"))
+young.smoke = fev$Age < 12 & fev$Smoke == 1
+young.nonsmoke = fev$Age < 12 & fev$Smoke == 0
+old.smoke = fev$Age >= 12 & fev$Smoke == 1
+old.nonsmoke = fev$Age >= 12 & fev$Smoke == 0
+boxplot(fev$fev[young.nonsmoke], fev$fev[young.smoke], 
+        fev$fev[old.nonsmoke], fev$fev[old.smoke])
+
+boxplot(fev$fev[old.nonsmoke], fev$fev[old.smoke])
+mean(fev$fev[young.nonsmoke])
+mean(fev$fev[young.smoke])
+
+mean(fev$Hgt[young.nonsmoke])
+mean(fev$Hgt[young.smoke])
+
+
+median(fev$Hgt)
+summary(fev$Hgt)
+
+short.smoke = fev$Hgt < 61.5 & fev$Smoke == 1
+short.nonsmoke = fev$Hgt < 61.5 & fev$Smoke == 0
+tall.smoke = fev$Hgt >= 61.5 & fev$Smoke == 1
+tall.nonsmoke = fev$Hgt >= 61.5 & fev$Smoke == 0
+boxplot(fev$fev[short.nonsmoke], fev$fev[short.smoke], 
+        fev$fev[tall.nonsmoke], fev$fev[tall.smoke])
+
+median(fev$fev[short.smoke])
+median(fev$fev[short.nonsmoke])
+
+median(fev$fev[tall.smoke])
+median(fev$fev[tall.nonsmoke])
+
+mean(fev$fev[short.smoke])
+mean(fev$fev[short.nonsmoke])
+
+mean(fev$fev[tall.smoke])
+mean(fev$fev[tall.nonsmoke])
+ ```
