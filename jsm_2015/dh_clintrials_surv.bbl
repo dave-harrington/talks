@@ -1,0 +1,268 @@
+\begin{thebibliography}{}
+
+\bibitem[Aalen, 1978]{aalen1978nonparametric}
+Aalen, O. (1978).
+\newblock Nonparametric inference for a family of counting processes.
+\newblock {\em The Annals of Statistics}, pages 701--726.
+
+\bibitem[Andersen et~al., 1993]{andersen1993statistical}
+Andersen, P.~K., Borgan, O., Gill, R.~D., and Keiding, N. (1993).
+\newblock {\em Statistical models based on counting processes}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Andersen and Gill, 1982]{andersen1982cox}
+Andersen, P.~K. and Gill, R.~D. (1982).
+\newblock Cox's regression model for counting processes: a large sample study.
+\newblock {\em The annals of statistics}, pages 1100--1120.
+
+\bibitem[Angrist et~al., 1996]{angrist1996identification}
+Angrist, J.~D., Imbens, G.~W., and Rubin, D.~B. (1996).
+\newblock Identification of causal effects using instrumental variables.
+\newblock {\em Journal of the American statistical Association},
+  91(434):444--455.
+
+\bibitem[Armitage, 1959]{armitage1959comparison}
+Armitage, P. (1959).
+\newblock The comparison of survival curves.
+\newblock {\em Journal of the Royal Statistical Society. Series A (General)},
+  pages 279--300.
+
+\bibitem[Armitage, 1960]{armitage1960sequential}
+Armitage, P. (1960).
+\newblock Sequential medical trials.
+\newblock {\em Sequential Medical Trials.}
+
+\bibitem[Barker et~al., 2009]{barker2009spy}
+Barker, A., Sigman, C., Kelloff, G., Hylton, N., Berry, D., and Esserman, L.
+  (2009).
+\newblock I-spy 2: An adaptive breast cancer trial design in the setting of
+  neoadjuvant chemotherapy.
+\newblock {\em Clinical Pharmacology \& Therapeutics}, 86(1):97--100.
+
+\bibitem[Berkson and Gage, 1952]{berkson1952survival}
+Berkson, J. and Gage, R.~P. (1952).
+\newblock Survival curve for cancer patients following treatment.
+\newblock {\em Journal of the American Statistical Association},
+  47(259):501--515.
+
+\bibitem[Breslow and Crowley, 1974]{breslow1974large}
+Breslow, N. and Crowley, J. (1974).
+\newblock A large sample study of the life table and product limit estimates
+  under random censorship.
+\newblock {\em The Annals of Statistics}, 2(3):437--453.
+
+\bibitem[Buckley and James, 1979]{buckley1979linear}
+Buckley, J. and James, I. (1979).
+\newblock Linear regression with censored data.
+\newblock {\em Biometrika}, 66(3):429--436.
+
+\bibitem[Cox, 1972]{cox1972regression}
+Cox, D.~R. (1972).
+\newblock Regression models and life-tables.
+\newblock {\em Journal of the Royal Statistical Society. Series B
+  (Methodological)}, pages 187--220.
+
+\bibitem[Cox and Oakes, 1984]{cox1984analysis}
+Cox, D.~R. and Oakes, D. (1984).
+\newblock {\em Analysis of survival data}, volume~21.
+\newblock CRC Press.
+
+\bibitem[Efron, 1977]{efron1977efficiency}
+Efron, B. (1977).
+\newblock The efficiency of cox's likelihood function for censored data.
+\newblock {\em Journal of the American statistical Association},
+  72(359):557--565.
+
+\bibitem[Elveback, 1958]{elveback1958estimation}
+Elveback, L. (1958).
+\newblock Estimation of survivorship in chronic disease: The “actuarial”
+  method.
+\newblock {\em Journal of the American Statistical Association},
+  53(282):420--440.
+
+\bibitem[Feigl and Zelen, 1965]{feigl1965estimation}
+Feigl, P. and Zelen, M. (1965).
+\newblock Estimation of exponential survival probabilities with concomitant
+  information.
+\newblock {\em Biometrics}, pages 826--838.
+
+\bibitem[Frangakis and Rubin, 2002]{frangakis2002principal}
+Frangakis, C.~E. and Rubin, D.~B. (2002).
+\newblock Principal stratification in causal inference.
+\newblock {\em Biometrics}, 58(1):21--29.
+
+\bibitem[Gallo et~al., 2006]{gallo2006adaptive}
+Gallo, P., Chuang-Stein, C., Dragalin, V., Gaydos, B., Krams, M., and Pinheiro,
+  J. (2006).
+\newblock Adaptive designs in clinical drug development - an executive summary
+  of the phrma working group.
+\newblock {\em Journal of biopharmaceutical statistics}, 16(3):275--283.
+
+\bibitem[Gehan, 1965]{gehan1965generalized}
+Gehan, E.~A. (1965).
+\newblock A generalized wilcoxon test for comparing arbitrarily singly-censored
+  samples.
+\newblock {\em Biometrika}, 52(1-2):203--223.
+
+\bibitem[Gerds et~al., 2008]{gerds2008performance}
+Gerds, T.~A., Cai, T., and Schumacher, M. (2008).
+\newblock The performance of risk prediction models.
+\newblock {\em Biometrical Journal}, 50(4):457--479.
+
+\bibitem[Gill, 1980]{gill1980censoring}
+Gill, R.~D. (1980).
+\newblock Censoring and stochastic integrals.
+\newblock {\em Statistica Neerlandica}, 34(2):124--124.
+
+\bibitem[Graf et~al., 1999]{graf1999assessment}
+Graf, E., Schmoor, C., Sauerbrei, W., and Schumacher, M. (1999).
+\newblock Assessment and comparison of prognostic classification schemes for
+  survival data.
+\newblock {\em Statistics in medicine}, 18(17-18):2529--2545.
+
+\bibitem[Graunt, 2008]{graunt2008natural}
+Graunt, J. (2008).
+\newblock {\em Natural and Political Observations made upon the Bills of
+  Mortality}.
+\newblock Number~2. Evergreen Review, Inc.
+
+\bibitem[Haybittle, 1971]{haybittle1971repeated}
+Haybittle, J. (1971).
+\newblock Repeated assessment of results in clinical trials of cancer
+  treatment.
+\newblock {\em The British journal of radiology}, 44(526):793--797.
+
+\bibitem[Ibrahim et~al., 2005]{ibrahim2005bayesian}
+Ibrahim, J.~G., Chen, M.-H., and Sinha, D. (2005).
+\newblock {\em Bayesian survival analysis}.
+\newblock Wiley Online Library.
+
+\bibitem[Imbens and Rubin, 2015]{imbens2015causal}
+Imbens, G.~W. and Rubin, D.~B. (2015).
+\newblock {\em Causal Inference in Statistics, Social, and Biomedical
+  Sciences}.
+\newblock Cambridge University Press.
+
+\bibitem[Jiang et~al., 2007]{jiang2007biomarker}
+Jiang, W., Freidlin, B., and Simon, R. (2007).
+\newblock Biomarker-adaptive threshold design: a procedure for evaluating
+  treatment with possible biomarker-defined subset effect.
+\newblock {\em Journal of the National Cancer Institute}, 99(13):1036--1043.
+
+\bibitem[Kalbfleisch and Prentice, 1980]{kalbfleisch1980statistical}
+Kalbfleisch, J.~D. and Prentice, R.~L. (1980).
+\newblock {\em The statistical analysis of failure time data}, volume 360.
+\newblock John Wiley \& Sons.
+
+\bibitem[Kaplan and Meier, 1958]{1958nonpakaplanrametric}
+Kaplan, E.~L. and Meier, P. (1958).
+\newblock Nonparametric estimation from incomplete observations.
+\newblock {\em Journal of the American Statistical Association},
+  53(282):457--481.
+
+\bibitem[Lan and DeMets, 1983]{lan1983discrete}
+Lan, K.~G. and DeMets, D.~L. (1983).
+\newblock Discrete sequential boundaries for clinical trials.
+\newblock {\em Biometrika}, 70(3):659--663.
+
+\bibitem[Mann et~al., 1974]{mann1974methodsfor}
+Mann, N.~R., Schafer, R., and Singpurwalla, N.~D. (1974).
+\newblock Methods for the statistical analysis of reliability and life data.
+
+\bibitem[Mantel, 1966]{mantel1966evaluation}
+Mantel, N. (1966).
+\newblock Evaluation of survival data and two new rank order statistics arising
+  in its consideration.
+\newblock {\em Cancer chemotherapy reports. Part 1}, 50(3):163--170.
+
+\bibitem[Marshall et~al., 1948]{marshall1948streptomycin}
+Marshall, G., Blacklock, J., Cameron, C., Capon, N., Cruickshank, R., Gaddum,
+  J., Heaf, F., Hill, A.~B., Houghton, L., Hoyle, J.~C., et~al. (1948).
+\newblock Streptomycin treatment of pulmonary tuberculosis: a medical research
+  council investigation.
+\newblock {\em BMJ}, 2(4582):769--782.
+
+\bibitem[Meyer, 1966]{meyer1966probability}
+Meyer, P.~A. (1966).
+\newblock {\em Probability and potentials}, volume~7.
+\newblock Blaisdell Publishing Company Waltham (Mass.).
+
+\bibitem[Miller, 1981]{Miller1981survival}
+Miller, R.~G. (1981).
+\newblock {\em Survival analysis}, volume~66.
+\newblock John Wiley \& Sons.
+
+\bibitem[O'Brien and Fleming, 1979]{o1979multiple}
+O'Brien, P.~C. and Fleming, T.~R. (1979).
+\newblock A multiple testing procedure for clinical trials.
+\newblock {\em Biometrics}, pages 549--556.
+
+\bibitem[Peterson, 1985]{jefferson1985letters}
+Peterson, M. (1985).
+\newblock Letters, 1760--1826.
+\newblock {\em Ed. Merrill D. Peterson. New York: Viking}.
+
+\bibitem[Peto and Peto, 1972]{peto1972asymptotically}
+Peto, R. and Peto, J. (1972).
+\newblock Asymptotically efficient rank invariant test procedures.
+\newblock {\em Journal of the Royal Statistical Society. Series A (General)},
+  pages 185--207.
+
+\bibitem[Pocock, 1977]{pocock1977group}
+Pocock, S.~J. (1977).
+\newblock Group sequential methods in the design and analysis of clinical
+  trials.
+\newblock {\em Biometrika}, 64(2):191--199.
+
+\bibitem[Robins and Tsiatis, 1991]{robins1991correcting}
+Robins, J.~M. and Tsiatis, A.~A. (1991).
+\newblock Correcting for non-compliance in randomized trials using rank
+  preserving structural failure time models.
+\newblock {\em Communications in statistics-Theory and Methods},
+  20(8):2609--2631.
+
+\bibitem[Rosenbaum and Rubin, 1983]{rosenbaum1983central}
+Rosenbaum, P.~R. and Rubin, D.~B. (1983).
+\newblock The central role of the propensity score in observational studies for
+  causal effects.
+\newblock {\em Biometrika}, 70(1):41--55.
+
+\bibitem[Smith, 1998]{smith1998clintrials}
+Smith, R. (1998).
+\newblock Fifty years of randomized controlled trials.
+\newblock {\em BMJ}, 317:0.
+
+\bibitem[Spiegelhalter et~al., 1994]{spiegelhalter1994bayesian}
+Spiegelhalter, D.~J., Freedman, L.~S., and Parmar, M.~K. (1994).
+\newblock Bayesian approaches to randomized trials.
+\newblock {\em Journal of the Royal Statistical Society. Series A (Statistics
+  in Society)}, pages 357--416.
+
+\bibitem[Therneau and Grambsch, 2000]{therneau2000modeling}
+Therneau, T.~M. and Grambsch, P.~M. (2000).
+\newblock {\em Modeling Survival Data: Extending the Cox Model}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Tsiatis, 1981a]{tsiatis1981asymptotic}
+Tsiatis, A.~A. (1981a).
+\newblock The asymptotic joint distribution of the efficient scores test for
+  the proportional hazards model calculated over time.
+\newblock {\em Biometrika}, 68(1):311--315.
+
+\bibitem[Tsiatis, 1981b]{tsiatis1981large}
+Tsiatis, A.~A. (1981b).
+\newblock A large sample study of cox's regression model.
+\newblock {\em The Annals of Statistics}, pages 93--108.
+
+\bibitem[Tsiatis and Mehta, 2003]{tsiatis2003inefficiency}
+Tsiatis, A.~A. and Mehta, C. (2003).
+\newblock On the inefficiency of the adaptive design for monitoring clinical
+  trials.
+\newblock {\em Biometrika}, 90(2):367--378.
+
+\bibitem[Wong, 1986]{wong1986theory}
+Wong, W.~H. (1986).
+\newblock Theory of partial likelihood.
+\newblock {\em The Annals of Statistics}, pages 88--123.
+
+\end{thebibliography}

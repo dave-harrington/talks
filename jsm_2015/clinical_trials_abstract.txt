@@ -1,0 +1,34 @@
+Apologies for the delay.  Let  me know if this suffices
+
+David Harrington
+Departments of Statistics and Biostatistics
+Harvard University
+Science Center 300A
+1 Oxford St
+Cambridge, MA 02138
+
+davidharrington@g.harvard.edu
+
+Recent History of Clinical Trials and Survival Analysis
+
+Methods for analyzing time to event data have been one of the important tools in the analysis in the design and analysis of clinical trials.  This talk will examine the methodologic advances in survival analysis that have responded to important problems in the study of chronic diseases, including regression models, group sequential designs in cancer clinical trials, frailty models, robust methods for exploring random effects in multicenter trials, and causal models in HIV and other settings where non-adherence threatens the interpretation of a trial.  We will also explore instances where advances in survival analysis were important parts of newer approaches in statistics generally, such as semi-parametric inference.
+
+Password for abstract: stat102
+
+++++ 
+
+Ideas for talk
+
+  -- Smith and Jefferson quotes
+
+  -- Exponential regression
+  
+  -- PH regression --> semiparametric analysis
+  
+  -- Martingale approach: harder to discern effect, but it brought in theory
+  
+  -- Sequential designs  --> group sequential designs.  Where did this lead in methodology
+  
+  -- Bayes: still unresolved.
+  
+  -- Causal analysis: where did it come from

@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ./dh_clintrials_surv.aux
+The style file: apalike.bst
+Database file #1: jsm_references.bib
+Repeated entry---line 399 of file jsm_references.bib
+ : @article{pocock1977group
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 412 of file jsm_references.bib
+ : @article{o1979multiple
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 434 of file jsm_references.bib
+ : @article{lan1983discrete
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no series in graunt2008natural
+You've used 47 entries,
+            1935 wiz_defined-function locations,
+            752 strings with 10741 characters,
+and the built_in function-call counts, 18822 in all, are:
+= -- 1903
+> -- 632
+< -- 51
++ -- 225
+- -- 204
+* -- 1539
+:= -- 3177
+add.period$ -- 141
+call.type$ -- 47
+change.case$ -- 327
+chr.to.int$ -- 46
+cite$ -- 48
+duplicate$ -- 740
+empty$ -- 1356
+format.name$ -- 285
+if$ -- 3739
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 55
+newline$ -- 237
+num.names$ -- 141
+pop$ -- 270
+preamble$ -- 1
+purify$ -- 336
+quote$ -- 0
+skip$ -- 616
+stack$ -- 0
+substring$ -- 1508
+swap$ -- 139
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 264
+warning$ -- 1
+while$ -- 173
+width$ -- 0
+write$ -- 604
+(There were 3 error messages)
