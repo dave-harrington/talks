@@ -111,8 +111,6 @@ R Studio
 
 R Gentleman    
 
-- try adding a list here
-- and another point    
 
 Robert Gentleman
 Associate Professor, DFCI
