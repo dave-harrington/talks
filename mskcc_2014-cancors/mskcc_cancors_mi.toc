@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Brief Overview of CanCORS}{4}{0}{1}
+\beamer@sectionintoc {2}{Multiple Imputation (MI) Primer}{12}{0}{2}
+\beamer@sectionintoc {3}{Unit Non-response: Using MI to `uncover'}{14}{0}{3}
+\beamer@sectionintoc {4}{Confidentiality: Using MI to Hide}{21}{0}{4}
+\beamer@sectionintoc {5}{Using CanCORS data}{41}{0}{5}

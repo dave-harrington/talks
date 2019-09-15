@@ -1,7 +1,9 @@
-Collection of miscellaneous talks.
+Collection of miscellaneous talks of potential general interest.
 
 
 jsm_2014: Invited talk at JSM, 2014 (Boston) on prediction error with censored data. LaTeX source and associated files.
+
+mskcc_2014-cancors:  Invited talk at Memorial Sloan Kettering, June 10, 2014, discussing the use of multiple imputation in the CanCORS project.  LaTeX source and associated files.
 
 jsm_2015: Invited talk at JSM, 2015 (Seattle) on the history of survival analysis in clinical trials. Latex source and associated files.
 
@@ -11,6 +13,6 @@ med_resident-student_2017:  The 2017 version of a short course on the use of sta
 
 spartan_2018: Invited talk at the The Spondyloarthritis Research and Treatment Network (SPARTAN) Annual Research and Education Meeting, May 5, 2018.  Survey of new designs for clinical trial.  pptx, pdf and associated graphics
 
-mskcc_2019:  Two talks at Memorial Sloan Kettering Institute on new guidelines for statistical reporting in the New England Journal of Medicine.  One for a general clinical audience and one for the Biostatistics Department.  Markdown source and associated files.
+mskcc_2019-nejm:  Two talks at Memorial Sloan Kettering Institute on new guidelines for statistical reporting in the New England Journal of Medicine.  One for a general clinical audience and one for the Biostatistics Department.  Markdown source and associated files.
 
 r_gentleman_symposium_2019:  Markdown outline of a tribute to Robert Gentleman on his 60th birthday.  June 27, 2019 at the R Developers Conference
