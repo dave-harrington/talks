@@ -30,16 +30,16 @@ citecolor: darkblue
 
 ## Guidelines were joint effort
 
-Statistical Consultants
+Statistical Consultants in addition to myself
 
 - Ralph D'Agostino, BU    
 - Constantine Gatsonis, Brown    
-- D Harrington, HSPH, DFCI
 - Joe Hogan, Brown
 - David Hunter, Oxford    
 - Sharon-Lise Normand, HMS
 
 Jeff Drazen, former Editor-in-Chief
+
 Mary Beth Hamel, Executive Deputy Editor
 
 All Deputy Editors read and approved guidelines
@@ -53,7 +53,7 @@ We meet weekly with the editors
 
 Review all research articles that editors decide to move through the system
 
-- We see approximately 5% of the 5,000 - 6000 submitted articles
+- We see approximately 5% of the 5,000 - 6000 submitted articles each year
 
 Statistical reviewers 
 
@@ -68,13 +68,13 @@ Revised author guidelines on statistical reporting posted on NEJM website July 1
 
 https://www.nejm.org/author-center/new-manuscripts
 
-Editorial describing the guidelines published 18 July 2019
+Editorial describing the guidelines published July 18, 2019
 
 - N Engl J Med 2019; 381:285-286
 
 Guidelines cover many aspects of statistical reporting
 
-Editorial emphasized section on p-values
+Editorial emphasized section on $p$-values
 
 ## Our goals
 
@@ -149,9 +149,9 @@ For RCTs:
 
 - Analysis should match design
 
-- Specify and follow multiplicity adjustments in SAP
+- Specify and follow multiplicity adjustments in SAP    
 
-- \textcolor{darkblue}{No plan for multiplicity adjustment: report point estimates with confidence intervals, no $p$-values}
+    - \textcolor{darkblue}{No plan for multiplicity adjustment: report point estimates with confidence intervals, no $p$-values}
 
 ## The guidelines \ldots
 
@@ -171,15 +171,15 @@ Observational studies:
 
 - Provide a SAP if you have one
 
-- No SAP - provide a clear analysis plan in methods section or supplement
+    - No SAP - provide a clear analysis plan in methods section or supplement   
 
 - \textcolor{darkblue}{No plan for multiplicity adjustment: report point estimates with confidence intervals, no $p$-values}
 
 - Show distributions of the measured confounders
 
-- Model diagnostics and sensitivity analyses in the supplement.
+- Model diagnostics and sensitivity analyses in the supplement
 
-- If possible, retest findings in a validation dataset.
+- If possible, retest findings in a validation dataset
 
 ## What about those unadjusted confidence intervals?
 
@@ -241,7 +241,7 @@ DOI: 10.1056/NEJMoa1801291
 ![safety p-values](../figures/safety_p-values.jpeg){width=70%}
 
 
-## $p$ values for interactions
+## $p$-values for interactions
 
 Did we do more harm than good in eliminating $p$-values in forest  plots of subgroups?
 
@@ -249,9 +249,9 @@ Deputy editors, authors and some statisticians reluctant to eliminate these
 
 - Authors and editors found lists of non-significant p-values reassuring.
 
-- Easy to recommend that significant p-values be ignored.
+- Easy to recommend that significant $p$-values be ignored.
 
-- No easy general recommendation for point estimates and confidence intervals for inteaction effects.
+- No easy general recommendation for point estimates and confidence intervals for interaction effects.
 
 ## New form of forest plots
 
@@ -314,15 +314,15 @@ False Pos. Prob = probability of incorrectly claiming alternative is true, given
 
 ## Assumptions behind the calculations
 
-Decision to use an intervention based on single trial, single p-value
+Decision to use an intervention based on single trial, single $p$-value
 
 Prior odds is knowable, at least approximately
 
 There is a simple alternative for which power is relevant
 
-For practicing clinician, is reproducibility the right metric?
+Assumes reproducibility the right metric
 
-## Have we made unsupported claims easier?
+## Have we enabled unsupported claims?
 
 Common to encounter phrases in drafts such as 
 
@@ -333,7 +333,7 @@ or
 
 \begin{quote}
 
-An exploratory \ldots analysis \ldots of patients who resumed [intervention]  was superior to that of patients who did not
+In exploratory \ldots analysis \ldots of patients who resumed [the intervention], it  was superior to that of patients who did not
 
 \end{quote}
 
