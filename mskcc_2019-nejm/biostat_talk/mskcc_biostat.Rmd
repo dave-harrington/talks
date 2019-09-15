@@ -339,10 +339,9 @@ In exploratory \ldots analysis \ldots of patients who resumed [the intervention]
 
 ----
 
-PDF of slides available at under mskcc_2019 at
+PDF of slides available under mskcc_2019-nejm
 
-https://github.com/dave-harrington/talks
-
+https://github.com/dave-harrington/talks/
 
 
 ## Reading
