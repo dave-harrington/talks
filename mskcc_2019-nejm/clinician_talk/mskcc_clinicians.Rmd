@@ -26,6 +26,8 @@ citecolor: darkblue
 
 - Statistical Consultant, New England Journal of Medicine
 
+- Member, MSKCC Phase 3 DSMB
+
 - davidharrington@g.harvard.edu
 
 ## Background
@@ -33,6 +35,8 @@ citecolor: darkblue
 Revised author guidelines on statistical reporting posted on NEJM website 1 July 2019
 
 https://www.nejm.org/author-center/new-manuscripts
+
+Goal: More consistency in both statistical reviews and articles
 
 Editorial describing the guidelines published 18 July 2019
 
@@ -69,9 +73,9 @@ Statistical reviewers
 
 ## Why did we fuss with $p$-values?
 
-Many submitted manuscripts sidestepped the issue of multiplicity
+Many submitted manuscripts side-stepped the issue of multiplicity
 
-- Possibly inflated type 1 error rates when comparing many endpoints
+- Possibly inflated type 1 error rates when comparing many endpoints to assess an intervention or an exposure
 
 - True in both randomized trials and observational studies
 
@@ -122,7 +126,8 @@ There was no control for multiple hypothesis testing, and no formal adjustment w
 
 \end{quote}
 
-What is the potential harm in this?
+What is the potential harm?
+
 
 - None, if the $p$-value is a simple descriptor of a calculation
 
@@ -143,10 +148,10 @@ The value for which $P = 0.05$, or 1 in 20, is 1.96 or nearly 2; it is convenien
 
 A $p$-value measures how much the observed data disagree with a hypothesis of no treatment effect.
 
-It is often incorrectly interpreted as a measure of the reproducibility of a trial 
+It is sometimes incorrectly interpreted as a measure of the reproducibility of a trial 
 
-- Or as the likelihood that the null hypothesis is correct (less than 5\% for a statistically significant result)
-    
+- or $p < 0.05$ implies that the chance that the intervention works is at least 95\%
+
 
 ## Analogy with diagnostic testing
 
@@ -160,6 +165,7 @@ Significance level of a test is the chance of test being positive when effect is
 
 - It is the false positive rate, or \textcolor{darkblue}{1 - Specificity}
 
+The positive predictive value of a hypothesis test is the chance the intervention is effective when the test is statistically significant
 
 ## Prevalence affects false positive rate 
 
@@ -311,7 +317,7 @@ Between 2000 and 2010:
     - 21 were replicated and showed positive primary outcome
       
 
-## Our recommendations in the current guidelines
+## Recommendations in the current guidelines
 
 If a statistically sound method for multiple tests was specified in the protocol or SAP, please follow it explicitly.
 
@@ -329,6 +335,8 @@ If there was no such plan
 Makes available all data on primary and secondary outcomes
 
 - Without conclusions not likely to be reproducible
+
+- What did you see vs. what did you learn?
 
 Confidence intervals are more informative than $p$-values
 
