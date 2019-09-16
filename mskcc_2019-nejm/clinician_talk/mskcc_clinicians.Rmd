@@ -430,7 +430,7 @@ Accompanying editorial gives references to methods for controlling error rates w
 
 ---- 
 
-Talk is available at under mskcc_2019 
+Talk is available under mskcc_2019-nejm at
 
 https://github.com/dave-harrington/talks
 
