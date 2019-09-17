@@ -62,7 +62,7 @@ We meet weekly with the editors
 
 Review all research articles that editors decide to move through the system
 
-- We see approximately 5% of the 5,000 - 6000 submitted articles
+- We see approximately 40% of the 5000 submitted research reports or letters
 
 Statistical reviewers 
 
@@ -169,7 +169,7 @@ The positive predictive value of a hypothesis test is the chance the interventio
 
 ## Prevalence affects false positive rate 
 
-Next slide shows a graph of \textcolor{darkblue}{probability of a false positive} conclusion in favor after a \textcolor{darkblue}{statistically significant} result, based on 
+Next slide shows a graph of \textcolor{darkblue}{probability of a false positive} conclusion in favor of an intervention after a \textcolor{darkblue}{statistically significant} result, based on 
 
 - Power of the study
 
