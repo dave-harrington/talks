@@ -26,6 +26,8 @@ citecolor: darkblue
 
 - Statistical Consultant, New England Journal of Medicine
 
+- Member, MSKCC Phase 3 DSMB
+
 - davidharrington@g.harvard.edu
 
 ## Guidelines were joint effort
@@ -53,7 +55,7 @@ We meet weekly with the editors
 
 Review all research articles that editors decide to move through the system
 
-- We see approximately 5% of the 5,000 - 6000 submitted articles each year
+- We see approximately 5% of the approximately 5,000 research articles and letters submitted each year
 
 Statistical reviewers 
 
@@ -123,17 +125,17 @@ Minimize misleading or misunderstood statistical jargon
 
 ## Our constraints
 
-For busy clinicians, conclusions in a paper should be clear, direct, and supportable.
+For busy clinicians, conclusions in a paper should be clear, direct, and supportable
 
 Statistical background of NEJM readers
 
-Word limits in NEJM make it difficult to discuss nuance.   
+Word limits in NEJM make it difficult to discuss nuance   
 
 - 250 words for abstracts 
 
 - 2700 words for article
 
-Normal review time and weekly publication schedule make transition to major changes difficult.
+Normal review time and weekly publication schedule make transition to major changes difficult
 
 ## Content of the guidelines
 
@@ -209,7 +211,7 @@ For each of 10,000 replicates in a simulation
     - Minimize the minimum $p$-value or     
     - Maximize the number of adjusted $p$-values < 0.05
     
-- Average FWER or FDR across replicates
+- Calculated the propotion of replicates for which at least one p-value was less than 0.05.
 
 Choice of methods from
 
