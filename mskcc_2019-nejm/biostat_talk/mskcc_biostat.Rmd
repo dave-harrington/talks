@@ -277,7 +277,7 @@ Deputy editors, authors and some statisticians reluctant to eliminate these
 
 ## Calculating posterior odds (Nat. Human Behavior, Jan 2018)
 
-![omega table 2a](../figures/ppv_threshold.jpeg){width=100%}
+![nat hum behavior](../figures/ppv_threshold.jpeg){width=100%}
 
 ## Effect of increasing $\alpha$
 

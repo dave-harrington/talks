@@ -181,7 +181,7 @@ Next slide shows a graph of \textcolor{darkblue}{probability of a false positive
 ## False positive probability, p-value, power (Nat. Human Behavior, Jan 2018)
 
 
-![omega table 2a](../figures/ppv_threshold.jpeg){width=100%}
+![nat hum behavior](../figures/ppv_threshold.jpeg){width=100%}
 
 
 ## What if the actual threshold for a 'significant' result is larger than 0.05?
@@ -400,7 +400,7 @@ A true $p < 0.05$ may not reduce the false positive rate enough
 ## False positive probability, p-value, power (Nat. Human Behavior, Jan 2018)
 
 
-![omega table 2a](../figures/ppv_threshold.jpeg){width=100%}
+![nat hum behavior](../figures/ppv_threshold.jpeg){width=100%}
 
 ## The wider debate...
 
