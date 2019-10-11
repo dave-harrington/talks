@@ -2,44 +2,10 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[ignorenonframetext,]{beamer}
-\usepackage{pgfpages}
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{: }
 \setbeamercolor{caption name}{fg=normal text.fg}
 \beamertemplatenavigationsymbolsempty
-% Prevent slide breaks in the middle of a paragraph:
-\widowpenalties 1 10000
-\raggedbottom
-\setbeamertemplate{part page}{
-\centering
-\begin{beamercolorbox}[sep=16pt,center]{part title}
-  \usebeamerfont{part title}\insertpart\par
-\end{beamercolorbox}
-}
-\setbeamertemplate{section page}{
-\centering
-\begin{beamercolorbox}[sep=12pt,center]{part title}
-  \usebeamerfont{section title}\insertsection\par
-\end{beamercolorbox}
-}
-\setbeamertemplate{subsection page}{
-\centering
-\begin{beamercolorbox}[sep=8pt,center]{part title}
-  \usebeamerfont{subsection title}\insertsubsection\par
-\end{beamercolorbox}
-}
-\AtBeginPart{
-  \frame{\partpage}
-}
-\AtBeginSection{
-  \ifbibliography
-  \else
-    \frame{\sectionpage}
-  \fi
-}
-\AtBeginSubsection{
-  \frame{\subsectionpage}
-}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -88,6 +54,39 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+\centering
+\begin{beamercolorbox}[sep=16pt,center]{part title}
+  \usebeamerfont{part title}\insertpart\par
+\end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+\centering
+\begin{beamercolorbox}[sep=12pt,center]{part title}
+  \usebeamerfont{section title}\insertsection\par
+\end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{part title}
+  \usebeamerfont{subsection title}\insertsubsection\par
+\end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -179,9 +178,9 @@
 \section{Interpreting study design and
 analysis}\label{interpreting-study-design-and-analysis}}
 
-\begin{frame}{Main elements of the design -- RCTs and observational
-studies}
-\protect\hypertarget{main-elements-of-the-design-rcts-and-observational-studies}{}
+\begin{frame}{%
+\protect\hypertarget{main-elements-of-the-design-rcts-and-observational-studies}{%
+Main elements of the design – RCTs and observational studies}}
 
 Plan to minimize bias?
 
@@ -208,8 +207,9 @@ examined?
 
 \end{frame}
 
-\begin{frame}{Power and type I error}
-\protect\hypertarget{power-and-type-i-error}{}
+\begin{frame}{%
+\protect\hypertarget{power-and-type-i-error}{%
+Power and type I error}}
 
 Type I error (alpha error)
 
@@ -225,8 +225,9 @@ Type I error (alpha error)
 
 \end{frame}
 
-\begin{frame}{Power}
-\protect\hypertarget{power}{}
+\begin{frame}{%
+\protect\hypertarget{power}{%
+Power}}
 
 \begin{itemize}
 \item
@@ -251,8 +252,9 @@ Type I error (alpha error)
 
 \end{frame}
 
-\begin{frame}{Design of SPRINT (NEJM 26 Nov 2015)}
-\protect\hypertarget{design-of-sprint-nejm-26-nov-2015}{}
+\begin{frame}{%
+\protect\hypertarget{design-of-sprint-nejm-26-nov-2015}{%
+Design of SPRINT (NEJM 26 Nov 2015)}}
 
 From the methods section of the paper:
 
@@ -262,8 +264,9 @@ We planned a 2-year recruitment period, with a maximum follow-up of 6 years, and
 
 \end{frame}
 
-\begin{frame}{Calculating Power}
-\protect\hypertarget{calculating-power}{}
+\begin{frame}{%
+\protect\hypertarget{calculating-power}{%
+Calculating Power}}
 
 Next two slides show graphs of power in hypothetical study of a blood
 pressure lowering medication. \medskip
@@ -281,20 +284,22 @@ Two medications, experimental vs control, using \(\alpha = 0.05\)
 
 \end{frame}
 
-\begin{frame}{Power vs.~sample size}
-\protect\hypertarget{power-vs.sample-size}{}
+\begin{frame}{%
+\protect\hypertarget{power-vs.sample-size}{%
+Power vs.~sample size}}
 
 \small
 
 \includegraphics{med_student_2019_files/figure-beamer/power_sample-1.pdf}
 
-More than about 250 to 350 per group doesn't provide much additional
+More than about 250 to 350 per group doesn’t provide much additional
 value.
 
 \end{frame}
 
-\begin{frame}{Power vs.~effect size, 250 participants per group}
-\protect\hypertarget{power-vs.effect-size-250-participants-per-group}{}
+\begin{frame}{%
+\protect\hypertarget{power-vs.effect-size-250-participants-per-group}{%
+Power vs.~effect size, 250 participants per group}}
 
 \small
 
@@ -302,8 +307,9 @@ value.
 
 \end{frame}
 
-\begin{frame}{Confidence intervals}
-\protect\hypertarget{confidence-intervals}{}
+\begin{frame}{%
+\protect\hypertarget{confidence-intervals}{%
+Confidence intervals}}
 
 Confidence intervals are the preferred way to summarize outcome data,
 and are more informative post-hoc than power calculations. \medskip
@@ -313,10 +319,10 @@ Easiest definition:
 \begin{itemize}
 \item
   Confidence interval provides a single estimate with a `margin of
-  error'.
+  error’.
 \item
   The size of the margin is determined by the variability in the data
-  and the `confidence coefficient'
+  and the `confidence coefficient’
 \end{itemize}
 
 Confidence coefficient is the proportion of times (in repeated sampling)
@@ -324,8 +330,9 @@ an interval will contain the true treatment effect.
 
 \end{frame}
 
-\begin{frame}{Measuring precision after study completion}
-\protect\hypertarget{measuring-precision-after-study-completion}{}
+\begin{frame}{%
+\protect\hypertarget{measuring-precision-after-study-completion}{%
+Measuring precision after study completion}}
 
 From
 \textit{Postmenopausal estrogen use and progestin use and the risk of cardiovascular disease,}
@@ -337,8 +344,9 @@ We observed a marked decrease in the risk of major coronary heart disease among 
 
 \end{frame}
 
-\begin{frame}{Measuring precision after study completion}
-\protect\hypertarget{measuring-precision-after-study-completion-1}{}
+\begin{frame}{%
+\protect\hypertarget{measuring-precision-after-study-completion-1}{%
+Measuring precision after study completion}}
 
 \begin{quote}
 However, there was no significant association between stroke and use of combined hormones (multivariate adjusted relative risk, 1.09; 95 percent confidence interval, 0.66 to 1.80) \ldots
@@ -347,8 +355,9 @@ However, there was no significant association between stroke and use of combined
 
 \end{frame}
 
-\begin{frame}{Controlling type I error}
-\protect\hypertarget{controlling-type-i-error}{}
+\begin{frame}{%
+\protect\hypertarget{controlling-type-i-error}{%
+Controlling type I error}}
 
 \small
 
@@ -361,39 +370,39 @@ Suppose each test is done at level \(\alpha = 0.05\).
 \toprule
 \begin{minipage}[b]{0.34\columnwidth}\centering
 Number of Comparisons\strut
-\end{minipage} & \begin{minipage}[b]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.38\columnwidth}\centering
 Experimentwise Error\strut
 \end{minipage}\tabularnewline
 \midrule
 \endhead
 \begin{minipage}[t]{0.34\columnwidth}\centering
 1\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\centering
 0.05\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 2\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\centering
 0.10\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 3\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\centering
 0.14\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 5\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\centering
 0.23\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 10\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\centering
 0.40\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 100\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\centering
 \textgreater{}0.90\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -406,8 +415,9 @@ Dangerous in the analysis of subgroups.
 
 \end{frame}
 
-\begin{frame}{Controlling type 1 error}
-\protect\hypertarget{controlling-type-1-error}{}
+\begin{frame}{%
+\protect\hypertarget{controlling-type-1-error}{%
+Controlling type 1 error}}
 
 Assume target experimentwise error 5\% (\(\alpha =0.05\)) \medskip
 
@@ -425,10 +435,11 @@ Bonferroni approximation, no order specified for comparisons
 
 \end{frame}
 
-\begin{frame}{Controlling type 1 error\ldots}
-\protect\hypertarget{controlling-type-1-error-1}{}
+\begin{frame}{%
+\protect\hypertarget{controlling-type-1-error-1}{%
+Controlling type 1 error\ldots}}
 
-Holm's method, no order specified
+Holm’s method, no order specified
 
 \begin{itemize}
 \item
@@ -456,8 +467,9 @@ Holm's method, no order specified
 \section{Special topic: What happens when there is
 attrition?}\label{special-topic-what-happens-when-there-is-attrition}}
 
-\begin{frame}{Problems caused by attrition}
-\protect\hypertarget{problems-caused-by-attrition}{}
+\begin{frame}{%
+\protect\hypertarget{problems-caused-by-attrition}{%
+Problems caused by attrition}}
 
 Attrition in an RCT can cause several problems
 
@@ -481,8 +493,9 @@ Neither is perfect
 
 \end{frame}
 
-\begin{frame}{Intent-to-treat (ITT) vs.~per-protocol (PP)}
-\protect\hypertarget{intent-to-treat-itt-vs.per-protocol-pp}{}
+\begin{frame}{%
+\protect\hypertarget{intent-to-treat-itt-vs.per-protocol-pp}{%
+Intent-to-treat (ITT) vs.~per-protocol (PP)}}
 
 ITT: analyze according to assigned treatment, not treatment received.
 \medskip
@@ -504,9 +517,10 @@ Example may help make this clear.
 
 \end{frame}
 
-\begin{frame}{Simple trial, success vs failure outcome, no difference,
-non-random crossover}
-\protect\hypertarget{simple-trial-success-vs-failure-outcome-no-difference-non-random-crossover}{}
+\begin{frame}{%
+\protect\hypertarget{simple-trial-success-vs-failure-outcome-no-difference-non-random-crossover}{%
+Simple trial, success vs failure outcome, no difference, non-random
+crossover}}
 
 \small
 
@@ -522,7 +536,7 @@ ITT table:
 Response\strut
 \end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\centering
 Treatment \(A\)\strut
-\end{minipage} & \begin{minipage}[b]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\centering
 Treatment \(B\)\strut
 \end{minipage}\tabularnewline
 \midrule
@@ -531,14 +545,14 @@ Treatment \(B\)\strut
 Success\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 40\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 40\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\centering
 Failure\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 60\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 60\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -557,8 +571,9 @@ Now assume, after randomization:
 
 \end{frame}
 
-\begin{frame}{Simple trial, but with selective crossovers.}
-\protect\hypertarget{simple-trial-but-with-selective-crossovers.}{}
+\begin{frame}{%
+\protect\hypertarget{simple-trial-but-with-selective-crossovers.}{%
+Simple trial, but with selective crossovers.}}
 
 Two treatments still equally effective.
 
@@ -570,7 +585,7 @@ Table for the as-treated groups
 Response\strut
 \end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\centering
 Treatment \(A\)\strut
-\end{minipage} & \begin{minipage}[b]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\centering
 Treatment \(B\)\strut
 \end{minipage}\tabularnewline
 \midrule
@@ -579,14 +594,14 @@ Treatment \(B\)\strut
 Success\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 30\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 50\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\centering
 Failure\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 70\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 50\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -596,9 +611,10 @@ An as-treated analysis would imply \(B\) more effective than \(A\)
 
 \end{frame}
 
-\begin{frame}{ITT can be biased when there is a real treatment effect
-(random crossovers)}
-\protect\hypertarget{itt-can-be-biased-when-there-is-a-real-treatment-effect-random-crossovers}{}
+\begin{frame}{%
+\protect\hypertarget{itt-can-be-biased-when-there-is-a-real-treatment-effect-random-crossovers}{%
+ITT can be biased when there is a real treatment effect (random
+crossovers)}}
 
 \small
 
@@ -610,7 +626,7 @@ Suppose \(B\) is more effective than \(A\), so for 100 in each group:
 Response\strut
 \end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\centering
 Treatment \(A\)\strut
-\end{minipage} & \begin{minipage}[b]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\centering
 Treatment \(B\)\strut
 \end{minipage}\tabularnewline
 \midrule
@@ -619,14 +635,14 @@ Treatment \(B\)\strut
 Success\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 30\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 50\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\centering
 Failure\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 70\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 50\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -637,8 +653,9 @@ treatments, after randomization but before starting treatment.
 
 \end{frame}
 
-\begin{frame}{Table with just patients who do not switch}
-\protect\hypertarget{table-with-just-patients-who-do-not-switch}{}
+\begin{frame}{%
+\protect\hypertarget{table-with-just-patients-who-do-not-switch}{%
+Table with just patients who do not switch}}
 
 \begin{longtable}[]{@{}ccc@{}}
 \toprule
@@ -646,7 +663,7 @@ treatments, after randomization but before starting treatment.
 Response\strut
 \end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\centering
 Treatment \(A\)\strut
-\end{minipage} & \begin{minipage}[b]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\centering
 Treatment \(B\)\strut
 \end{minipage}\tabularnewline
 \midrule
@@ -655,14 +672,14 @@ Treatment \(B\)\strut
 Success\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 27\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 45\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\centering
 Failure\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 63\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 45\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -676,7 +693,7 @@ Attrition did not change measured success rates
   but it does reduce the effective sample size
 \end{itemize}
 
-What happens when `switchers' are put back in?
+What happens when `switchers’ are put back in?
 
 \begin{itemize}
 \item
@@ -687,8 +704,9 @@ What happens when `switchers' are put back in?
 
 \end{frame}
 
-\begin{frame}{ITT Table with assigned treatment, real response}
-\protect\hypertarget{itt-table-with-assigned-treatment-real-response}{}
+\begin{frame}{%
+\protect\hypertarget{itt-table-with-assigned-treatment-real-response}{%
+ITT Table with assigned treatment, real response}}
 
 \small
 
@@ -702,7 +720,7 @@ What happens when `switchers' are put back in?
 Response\strut
 \end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\centering
 Treatment \(A\)\strut
-\end{minipage} & \begin{minipage}[b]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.25\columnwidth}\centering
 Treatment \(B\)\strut
 \end{minipage}\tabularnewline
 \midrule
@@ -711,14 +729,14 @@ Treatment \(B\)\strut
 Success\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 32\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 48\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.15\columnwidth}\centering
 Failure\strut
 \end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\centering
 68\strut
-\end{minipage} & \begin{minipage}[t]{0.27\columnwidth}\centering
+\end{minipage} & \begin{minipage}[t]{0.25\columnwidth}\centering
 52\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -739,8 +757,9 @@ missing data
 \section{Special Topic: Non-inferiority (NI)
 trials}\label{special-topic-non-inferiority-ni-trials}}
 
-\begin{frame}{Goals of NI trials}
-\protect\hypertarget{goals-of-ni-trials}{}
+\begin{frame}{%
+\protect\hypertarget{goals-of-ni-trials}{%
+Goals of NI trials}}
 
 \(T\) = experimental treatment; \(C\) = active control
 
@@ -760,8 +779,9 @@ Ordinarily, both must be true for \(T\) to be a therapeutic option.
 
 \end{frame}
 
-\begin{frame}{Goals of NI Designs}
-\protect\hypertarget{goals-of-ni-designs}{}
+\begin{frame}{%
+\protect\hypertarget{goals-of-ni-designs}{%
+Goals of NI Designs}}
 
 The ideal study design would be a three-arm design, with \(P\), \(C\),
 and \(T\).
@@ -773,22 +793,25 @@ The non-inferiority trial provides a direct comparison of \(T\) to
 
 \end{frame}
 
-\begin{frame}{The role of uncertainty in NI Trials}
-\protect\hypertarget{the-role-of-uncertainty-in-ni-trials}{}
+\begin{frame}{%
+\protect\hypertarget{the-role-of-uncertainty-in-ni-trials}{%
+The role of uncertainty in NI Trials}}
 
 \includegraphics{ni_ci_rr_empty.pdf}
 
 \end{frame}
 
-\begin{frame}{}
-\protect\hypertarget{section}{}
+\begin{frame}{%
+\protect\hypertarget{section}{%
+}}
 
 \includegraphics{ni_ci_rr_full.pdf}
 
 \end{frame}
 
-\begin{frame}{Important issues in analysis of NI Trials}
-\protect\hypertarget{important-issues-in-analysis-of-ni-trials}{}
+\begin{frame}{%
+\protect\hypertarget{important-issues-in-analysis-of-ni-trials}{%
+Important issues in analysis of NI Trials}}
 
 The role of null and alternative hypotheses are reversed in NI trials.
 
@@ -815,8 +838,9 @@ Sample size should provide adequate power (at least 80\%) to reject
 
 \end{frame}
 
-\begin{frame}{Issues in the analysis of NI trials}
-\protect\hypertarget{issues-in-the-analysis-of-ni-trials}{}
+\begin{frame}{%
+\protect\hypertarget{issues-in-the-analysis-of-ni-trials}{%
+Issues in the analysis of NI trials}}
 
 Features of a trial which may lead to treatment differences appearing
 smaller may inappropriately lead to claim of NI.
@@ -841,8 +865,9 @@ Safest to provide both
 
 \end{frame}
 
-\begin{frame}{Threats to Validity of NI Designs}
-\protect\hypertarget{threats-to-validity-of-ni-designs}{}
+\begin{frame}{%
+\protect\hypertarget{threats-to-validity-of-ni-designs}{%
+Threats to Validity of NI Designs}}
 
 Non-inferiority studies have some intrinsic limitations that make them
 more difficult to design and more vulnerable to problems than the
@@ -862,8 +887,9 @@ The following are the most important issues:
 
 \end{frame}
 
-\begin{frame}{Questions to ask about NI trials}
-\protect\hypertarget{questions-to-ask-about-ni-trials}{}
+\begin{frame}{%
+\protect\hypertarget{questions-to-ask-about-ni-trials}{%
+Questions to ask about NI trials}}
 
 \begin{itemize}
 \item
@@ -891,8 +917,9 @@ The following are the most important issues:
 
 \end{frame}
 
-\begin{frame}{Questions to ask about NI trials\ldots{}}
-\protect\hypertarget{questions-to-ask-about-ni-trials-1}{}
+\begin{frame}{%
+\protect\hypertarget{questions-to-ask-about-ni-trials-1}{%
+Questions to ask about NI trials\ldots{}}}
 
 \begin{itemize}
 \item
@@ -919,8 +946,9 @@ The following are the most important issues:
 \section{\texorpdfstring{The buzz about
 \(p\)-values}{The buzz about p-values}}\label{the-buzz-about-p-values}}
 
-\begin{frame}{P-values in medical literature}
-\protect\hypertarget{p-values-in-medical-literature}{}
+\begin{frame}{%
+\protect\hypertarget{p-values-in-medical-literature}{%
+P-values in medical literature}}
 
 \(p < 0.05\) proposed by Fisher (1926) for single comparisons in
 randomized experiments:
@@ -946,8 +974,9 @@ reproducibility of a trial
 
 \end{frame}
 
-\begin{frame}{Analogy with diagnostic testing}
-\protect\hypertarget{analogy-with-diagnostic-testing}{}
+\begin{frame}{%
+\protect\hypertarget{analogy-with-diagnostic-testing}{%
+Analogy with diagnostic testing}}
 
 In a hypothesis test
 
@@ -974,8 +1003,9 @@ intervention is effective when the test is statistically significant
 
 \end{frame}
 
-\begin{frame}{Prevalence affects false positive rate}
-\protect\hypertarget{prevalence-affects-false-positive-rate}{}
+\begin{frame}{%
+\protect\hypertarget{prevalence-affects-false-positive-rate}{%
+Prevalence affects false positive rate}}
 
 Next slide shows a graph of
 \textcolor{darkblue}{probability of a false positive} conclusion in
@@ -993,17 +1023,19 @@ favor of an intervention after a
 
 \end{frame}
 
-\begin{frame}{False positive probability, p-value, power (Nat. Human
-Behavior, Jan 2018)}
-\protect\hypertarget{false-positive-probability-p-value-power-nat.-human-behavior-jan-2018}{}
+\begin{frame}{%
+\protect\hypertarget{false-positive-probability-p-value-power-nat.-human-behavior-jan-2018}{%
+False positive probability, p-value, power (Nat. Human Behavior, Jan
+2018)}}
 
 \includegraphics[width=1\textwidth,height=\textheight]{ppv_threshold.jpeg}
 
 \end{frame}
 
-\begin{frame}{What if the actual threshold for a `significant' result is
-larger than 0.05?}
-\protect\hypertarget{what-if-the-actual-threshold-for-a-significant-result-is-larger-than-0.05}{}
+\begin{frame}{%
+\protect\hypertarget{what-if-the-actual-threshold-for-a-significant-result-is-larger-than-0.05}{%
+What if the actual threshold for a ‘significant’ result is larger than
+0.05?}}
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
@@ -1026,8 +1058,9 @@ Calculations assume power = 0.80
 
 \end{frame}
 
-\begin{frame}{The effect of multiplicity}
-\protect\hypertarget{the-effect-of-multiplicity}{}
+\begin{frame}{%
+\protect\hypertarget{the-effect-of-multiplicity}{%
+The effect of multiplicity}}
 
 The more tests in a set of comparisons, the more likely it is that at
 least one will be a false positive. \medskip
@@ -1039,39 +1072,39 @@ are independent.
 \toprule
 \begin{minipage}[b]{0.34\columnwidth}\centering
 Number of Comparisons\strut
-\end{minipage} & \begin{minipage}[b]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[b]{0.38\columnwidth}\raggedleft
 Overall Type I Error Prob.\strut
 \end{minipage}\tabularnewline
 \midrule
 \endhead
 \begin{minipage}[t]{0.34\columnwidth}\centering
 1\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedleft
 0.05\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 2\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedleft
 0.10\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 3\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedleft
 0.14\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 5\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedleft
 0.23\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 10\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedleft
 0.40\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.34\columnwidth}\centering
 20\strut
-\end{minipage} & \begin{minipage}[t]{0.39\columnwidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedleft
 0.64\strut
 \end{minipage}\tabularnewline
 \bottomrule
@@ -1079,8 +1112,9 @@ Overall Type I Error Prob.\strut
 
 \end{frame}
 
-\begin{frame}{Effect of increasing \(\alpha\)}
-\protect\hypertarget{effect-of-increasing-alpha}{}
+\begin{frame}{%
+\protect\hypertarget{effect-of-increasing-alpha}{%
+Effect of increasing \(\alpha\)}}
 
 Prior odds = 1:10, power = 0.80
 
@@ -1103,8 +1137,9 @@ true, given data
 
 \end{frame}
 
-\begin{frame}{Useful references}
-\protect\hypertarget{useful-references}{}
+\begin{frame}{%
+\protect\hypertarget{useful-references}{%
+Useful references}}
 
 Friedman LM, Furberg CD, DeMets DL.
 \textit{Fundamentals of Clinical Trials,  5th ed.} 2015; Springer.
@@ -1113,8 +1148,9 @@ Ongoing series in NEJM: \textit{The Changing Face of Clinical Trials}
 
 \end{frame}
 
-\begin{frame}{Downloads}
-\protect\hypertarget{downloads}{}
+\begin{frame}{%
+\protect\hypertarget{downloads}{%
+Downloads}}
 
 Talk is available under med\_resident-student\_2019
 
