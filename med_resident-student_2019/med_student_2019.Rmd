@@ -28,7 +28,7 @@ Plan to minimize bias?
 
 - Observational studies: record important confounders, plan for post-hoc adjustment, perhaps include matching in recruitment
 
-Chance of detecting important effects/associations? (Adequately powered, at leat 80%) \medskip
+Chance of detecting important effects/associations? (Adequately powered, at least 80%) \medskip
 
 Plan to minimize false positive results if many endpoints/subgroups examined?
 
